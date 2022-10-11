@@ -10,70 +10,121 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div id="header" class="wrapper"> 
-        <div class="container">
-              
-                <div id="logo">
-                <img src="logo stimata.PNG" alt="">
-                </div>
-                
-                <div id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tentang.html">Tentang</a></li>
-                    <li><a href="kontak.html">Kontak</a></li>
-                </ul>
-                </div>
-
-            <div class="clear"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="asset/logo stimata.PNG" alt="" width="60" height="75" class="d-inline-block align-text-senter">
+              STIMATA
+            </a>
+          </div>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang.html">tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Kontak.html">Kontak</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </div>
-                
-</div>
-<div class="wrapper">
-    <div class="container">
-        <div class="sidebar">
-           
-            </div>
-                <div class="content">
-                    <div class="blog-content">
-                        <div class="image-box">
-                            <img src="rtx 4090.jpg" alt="">
-                    
-                        </div>
-                    
-                        <div class="text-box">
-                            <h2>GeForce RTX 4090 Bisa Di-overclok Sampai 3 GHz</h2>
-                    
-                            <p>
-                                Pada acara peluncuran, CEO Nvidia, Jensen Huang mengeklaim bahwa model tertinggi dari seri GPU yang juga dijuluki "Ada Lovelace" tersebut, yaitu RTX 4090 bisa ditingkatkan kecepatan clock-nya (overclock) menjadi 3,0 GHz.
-                            </p>
-                            <a href="https://tekno.kompas.com/read/2022/09/24/08000047/geforce-rtx-4090-bisa-di-overclok-sampai-3-ghz?page=all">Read more</a>
-                           
-                            <div class="image-box">
-                                <img src="Mirage.jpg" alt="">
-                        
-                            </div>
-                        
-                            <div class="text-box">
-                        
-                                <h2>Ubisoft Umumkan Kehadiran Game Assassins's Creed Mirage</h2>
-                                <p>
-                                    Dikutip dari Polygon, Sabtu (3/9/2022), unggahan itu juga menampilkan ilustrasi dari karakter utama dalam game ini, yakni Basim. Ia diperlihatkan tengah melompat melewati Golden Gate Palace yang ada di Baghdad
-                                </p>
-                        
-                                <a href="https://www.liputan6.com/tekno/read/5059070/ubisoft-umumkan-kehadiran-game-assassinss-creed-mirage">Read more</a>
-                            </div>
-                        </div>
-                    
-                   </div>
-                </div>
-        <div class="clear"></div>
-    </div>
-</div>
+      </nav>
 
-    
-    
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/assassin's creed mirage .jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Assassin's Creed Mirage</h5>
+              <p>PC | PS4 | PS5 | Xbox One | Xbox Series X/S </p>
+              <p>2023</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/pokemon scarlet and violet.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pokémon Scarlet and Violet</h5>
+              <p>Nintendo Switch</p>
+              <p>November 18, 2022</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/god of war ragnarok.jpg" classs="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>God of War Ragnarök</h5>
+              <p>PS4 | PS5</p>
+              <p>November 9, 2022</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="mb-4"></div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="asset/playstation.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Playstation</h5>
+            <p class="card-text">The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment. 
+              It was released in Japan on 3 December 1994, in North America on 9 September 1995, in Europe on 29 September 1995, and in Australia on 15 November 1995. 
+              <a href="https://en.wikipedia.org/wiki/PlayStation_(console)">Wikipedia</a></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://www.playstation.com/en-id/">playstation.com</a></small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/Xbox.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xbox</h5>
+            <p class="card-text">Xbox is a video gaming brand created and owned by Microsoft. 
+              The brand consists of five video game consoles, as well as applications (games), streaming services, 
+              an online service by the name of Xbox network, and the development arm by the name of Xbox Game Studios. 
+              The brand was first introduced in the United States in November 2001, with the launch of the original Xbox console. 
+              <a href="https://en.wikipedia.org/wiki/Xbox">Wikipedia</a></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://www.xbox.com/en-US/en-WW/">xbox.com</a></small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/Nintendo switch.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nintendo</h5>
+            <p class="card-text">Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto, Japan. 
+              It develops video games and video game consoles. 
+              Nintendo was founded in 1889 as Nintendo Karuta by craftsman Fusajiro Yamauchi and originally produced handmade hanafuda playing cards
+            <a href="https://en.wikipedia.org/wiki/Nintendo">Wikipedia</a></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://www.nintendo.com/">nintendo.com</a></small>
+          </div>
+        </div>
+      </div>
+              
+
 </body>
 <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
